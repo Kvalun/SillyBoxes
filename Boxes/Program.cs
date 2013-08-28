@@ -32,7 +32,7 @@ namespace Boxes
 				boxes.Add(b);
 
 				Console.WriteLine("Vil du lave flere kasser? (y for ja)");
-			} while (Console.Read() == 'y');
+			} while (Console.ReadKey().KeyChar == 'y');
 
 
 			Console.WriteLine ("Her er dine kasser:");
